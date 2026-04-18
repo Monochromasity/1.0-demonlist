@@ -36,6 +36,11 @@ body {
   font-size: 20px;
 }
 
+.user {
+  font-size: 20px;
+  color: green;
+}
+
 .rewards {
   font-size: 13px;
 }
