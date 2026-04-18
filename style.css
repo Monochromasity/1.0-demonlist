@@ -25,6 +25,7 @@ body {
 .info * {
   text-align: left;
   padding: 10px;
+  line-height: 10px;
 }
 
 .name {
