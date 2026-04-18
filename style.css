@@ -31,3 +31,7 @@ body {
 .rewards {
   font-size: 20px;
 }
+
+.level img {
+  float: left;
+}
