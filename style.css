@@ -2,9 +2,13 @@ body {
   background-color: #1f1f1f;
   color: white;
   font-family: "Lexend", Arial, sans-serif;
+  text-align: center;
 }
 
 .title {
-  text-align: center;
   font-size: 75px;
+}
+
+.description {
+  font-size: 40px;
 }
