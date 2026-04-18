@@ -20,16 +20,21 @@ body {
   margin: 50px 800px;
 }
 
-.name {
-  font-size: 40px;
+.level * {
+  text-align: left;
+  padding: 10px;
 }
 
-.details {
+.name {
   font-size: 30px;
 }
 
-.rewards {
+.details {
   font-size: 20px;
+}
+
+.rewards {
+  font-size: 10px;
 }
 
 .level img {
