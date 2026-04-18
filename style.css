@@ -3,3 +3,7 @@ body {
   color: white;
   font-family: "Lexend", Arial, sans-serif;
 }
+
+h1 {
+  text-align: center;
+}
