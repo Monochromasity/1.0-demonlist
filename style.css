@@ -13,3 +13,8 @@ body {
 .description {
   font-size: 20px;
 }
+
+.level {
+  border: 2px solid #363636;
+  border-radius: 10px;
+}
