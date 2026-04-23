@@ -12,3 +12,5 @@ async function printlist() {
   const list = await fetchlist();
   console.log(list);
 }
+
+printlist()
