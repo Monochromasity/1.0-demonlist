@@ -10,7 +10,7 @@ async function fetchlist() {
 
 async function printlist() {
   const list = await fetchlist();
-  console.log(list);
+  console.log(list.toString());
 }
 
 printlist()
