@@ -14,6 +14,10 @@ body {
   font-size: 20px;
 }
 
+.space {
+  margin-top: 30px;
+}
+
 .level {
   display: flex;
   align-items: center;
