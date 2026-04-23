@@ -1,12 +1,12 @@
-[
-  {
+{
+  "one":{
     "level": "Hack on Track",
     "creator": "Xiotur",
     "verifier": "The Exploit"
   },
-  {
+  "two":{
     "level": "Flashback Fantasy",
     "creator": "Henabidus",
     "verifier": "Henabidus"
   }
-]
+}
