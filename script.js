@@ -8,5 +8,7 @@ async function fetchlist() {
   }
 }
 
-const list = fetchlist()
-console.log(list)
+async function printlist() {
+  const list = await fetchlist();
+  console.log(list);
+}
