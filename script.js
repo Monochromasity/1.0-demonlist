@@ -55,8 +55,9 @@ async function printlist() {
     details.appendChild(detailstxt2);
     details.appendChild(verifier);
     // Level rewards
+    const rewardvalue = Math.pow((((-7*Math.sqrt(499))/(list.length-1))*(i-list.length))/7, 2) + 1;
     const rewards = document.createElement("p");
-    const rewardstxt = document.createTextNode("Rewards ".concat((list.length)/(500*(i+1))).concat(" points"));
+    const rewardstxt = document.createTextNode("Rewards ".concat(rewardvalue).concat(" points"));
     rewards.appendChild(rewardstxt);
     rewards.className = "rewards";
     info.appendChild(name);
