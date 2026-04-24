@@ -10,7 +10,15 @@ async function fetchlist() {
 
 async function printlist() {
   const list = await fetchlist();
-  console.log(JSON.stringify(list));
+  // console.log(JSON.stringify(list));
+  for (i = 0; i < list.length; i++) {
+    const level = document.createElement("div");
+    level.className = "level";
+    const placementb = document.createElement("b");
+    const placement = placementb.createTextNode("#".concat("insert number here"));
+    placement.className = "placement";
+    level.appendChild(placement);
+  }
 }
 
 printlist()
