@@ -51,7 +51,7 @@ async function printlist() {
     const detailstxt1 = document.createTextNode("Published by ");
     details.appendChild(detailstxt1);
     details.appendChild(creator);
-    const detailstxt2 = document.createTextNode("Verified by ");
+    const detailstxt2 = document.createTextNode(" • Verified by ");
     details.appendChild(detailstxt2);
     details.appendChild(verifier);
     // Level rewards
@@ -62,6 +62,7 @@ async function printlist() {
     info.appendChild(name);
     info.appendChild(details);
     info.appendChild(rewards);
+    level.appendChild(info);
     // Append to website
     console.log(list[i]);
     htmllist.appendChild(level);
