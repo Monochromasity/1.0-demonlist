@@ -14,8 +14,9 @@ async function printlist() {
   for (i = 0; i < list.length; i++) {
     const level = document.createElement("div");
     level.className = "level";
-    const placementb = document.createElement("b");
-    const placement = placementb.createTextNode("#".concat(list[i]));
+    const placement = document.createElement("b");
+    const placementtxt = document.createTextNode("#".concat(list[i]));
+    placement.appendChild(placementtxt);
     placement.className = "placement";
     level.appendChild(placement);
     console.log(list[i]);
