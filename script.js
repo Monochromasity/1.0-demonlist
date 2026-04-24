@@ -15,9 +15,10 @@ async function printlist() {
     const level = document.createElement("div");
     level.className = "level";
     const placementb = document.createElement("b");
-    const placement = placementb.createTextNode("#".concat("insert number here"));
+    const placement = placementb.createTextNode("#".concat(list[i]));
     placement.className = "placement";
     level.appendChild(placement);
+    console.log(list[i]);
   }
 }
 
