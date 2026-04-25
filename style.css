@@ -23,7 +23,7 @@ body {
   justify-content: center;
 }
 
-.leveldetails {
+.leveldetails,.leveldetailsdisplay {
   -moz-transition-property: top,left,width,height;
   -webkit-transition-property: top,left,width,height;
   -ms-transition-property: top,left,width,height;
