@@ -92,6 +92,8 @@ function leveldetails(lvl) {
     lvldetails.className = "level";
     const maindiv = document.getElementById("main");
     maindiv.appendChild(lvldetails);
+  } else {
+    document.getElementById("leveldetails").remove();
   }
 }
 
