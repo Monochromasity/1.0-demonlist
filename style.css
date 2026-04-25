@@ -23,7 +23,7 @@ body {
   justify-content: center;
 }
 
-.leveldetails,.leveldetailsdisplay {
+.leveldetails {
   -moz-transition-property: top,left,width,height;
   -webkit-transition-property: top,left,width,height;
   -ms-transition-property: top,left,width,height;
@@ -40,9 +40,10 @@ body {
 
 .leveldetailsdisplay {
   height: 100;
+  width: 100;
 }
 
-.level,.leveldetailsdisplay {
+.level {
   display: flex;
   align-items: center;
   border: 2px solid #363636;
