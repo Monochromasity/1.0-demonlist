@@ -25,7 +25,8 @@ async function printlist() {
     // Level thumbnail
     const thumbnail = document.createElement("img");
     // thumbnail.src = "/thumbnails/".concat(list[i]["level"]).concat(".png");
-    thumbnail.src = "https://img.youtube.com/vi/".concat(list[i]["video"].substring(str.indexOf("?") + 1, str.indexOf("&"))).concat("maxresdefault.jpg");
+    const vid = list[i]["video"]
+    thumbnail.src = "https://img.youtube.com/vi/".concat(vid.substring(vid.indexOf("?") + 1, vid.indexOf("&"))).concat("maxresdefault.jpg");
     level.appendChild(thumbnail);
     // Level info
     const info = document.createElement("div");
