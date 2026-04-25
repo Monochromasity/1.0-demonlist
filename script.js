@@ -17,7 +17,7 @@ async function printlist() {
     const level = document.createElement("div");
     level.className = "level";
     level.onclick = function() {
-      ${this}.siblings().className = "leveldetailsdisplay";
+      ${this}.siblings().toggleClass("leveldetailsdisplay");
     }
     // Level placement
     const placement = document.createElement("b");
