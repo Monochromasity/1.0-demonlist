@@ -18,6 +18,11 @@ body {
   margin-top: 40px;
 }
 
+#main {
+  display: flex;
+  align-items: center;
+}
+
 .level {
   display: flex;
   align-items: center;
