@@ -2,7 +2,7 @@ async function fetchlist() {
   try {
     const response = await fetch("https://raw.githubusercontent.com/Monochromasity/1.0-demonlist/refs/heads/main/list.json");
     const list = await response.json();
-    return list
+    return list;
   } catch (error) {
     console.log(error);
   }
@@ -24,7 +24,8 @@ async function printlist() {
     level.appendChild(placement);
     // Level thumbnail
     const thumbnail = document.createElement("img");
-    thumbnail.src = "/thumbnails/".concat(list[i]["level"]).concat(".png");
+    // thumbnail.src = "/thumbnails/".concat(list[i]["level"]).concat(".png");
+    thumbnail.src = "https://img.youtube.com/vi/".concat(list[i]["video"].substring(str.indexOf("?") + 1, str.indexOf("&"))).concat("maxresdefault.jpg");
     level.appendChild(thumbnail);
     // Level info
     const info = document.createElement("div");
