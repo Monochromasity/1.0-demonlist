@@ -29,12 +29,12 @@ async function printlist() {
     thumbnail.dataset.video = list[i]["video"]
     thumbnail.onload = function() {
       if (this.naturalWidth == 120) {
-        this.src = "https://img.youtube.com/vi/".concat(video).concat("/hqdefault.jpg");
+        this.src = "https://img.youtube.com/vi/".concat(this.dataset.video).concat("/hqdefault.jpg");
       }
     };
     thumbnail.onerror = function() {
       this.onerror = null;
-      this.src = "https://img.youtube.com/vi/".concat(video).concat("/hqdefault.jpg");
+      this.src = "https://img.youtube.com/vi/".concat(this.dataset.video).concat("/hqdefault.jpg");
     };
     level.appendChild(thumbnail);
     // Level info
