@@ -26,10 +26,15 @@ async function printlist() {
     const thumbnail = document.createElement("img");
     // thumbnail.src = "/thumbnails/".concat(list[i]["level"]).concat(".png");
     thumbnail.src = "https://img.youtube.com/vi/".concat(list[i]["video"]).concat("/maxresdefault.jpg");
+    thumbnail.onload = function() {
+      if (this.naturalWidth == 120) {
+        this.src = "https://img.youtube.com/vi/".concat(list[i]["video"]).concat("/hqdefault.jpg");
+      }
+    };
     thumbnail.onerror = function() {
       this.onerror = null;
       this.src = "https://img.youtube.com/vi/".concat(list[i]["video"]).concat("/hqdefault.jpg");
-    }
+    };
     level.appendChild(thumbnail);
     // Level info
     const info = document.createElement("div");
