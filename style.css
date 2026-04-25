@@ -59,5 +59,6 @@ body {
   float: left;
   width: 320px;
   /* height: 180px; */
+  object-fit: cover;
   padding: 20px;
 }
