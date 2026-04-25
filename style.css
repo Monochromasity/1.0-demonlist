@@ -25,6 +25,11 @@ body {
   border-radius: 10px;
   margin: 20px auto;
   width: 960px;
+  transition: transform 0.2s;
+}
+
+.level:hover {
+  transform: scale(1.1);
 }
 
 .placement {
