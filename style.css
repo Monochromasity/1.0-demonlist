@@ -18,6 +18,26 @@ body {
   margin-top: 40px;
 }
 
+.leveldetails {
+  -moz-transition-property: top,left,width,height;
+  -webkit-transition-property: top,left,width,height;
+  -ms-transition-property: top,left,width,height;
+  -o-transition-property: top,left,width,height;
+  transition-property: top,left,width,height;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  height: 0;
+  width: 0;
+}
+
+.leveldetailsdisplay {
+  height: 100;
+  width: 100;
+}
+
 .level {
   display: flex;
   align-items: center;
