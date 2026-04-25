@@ -18,7 +18,7 @@ async function printlist() {
     level.className = "level";
     level.onclick = function() {
       console.log(this);
-      // leveldetails(this);
+      leveldetails(this);
     }
     // Level placement
     const placement = document.createElement("b");
@@ -83,6 +83,13 @@ async function printlist() {
     console.log(list[i]);
     htmllist.appendChild(level);
   }
+}
+
+function leveldetails(lvl) {
+  const lvldetails = document.createElement("div");
+  lvldetails.className = "level";
+  const maindiv = document.getElementById("main");
+  maindiv.appendChild(lvldetails);
 }
 
 printlist()
