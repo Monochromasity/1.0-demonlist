@@ -86,10 +86,13 @@ async function printlist() {
 }
 
 function leveldetails(lvl) {
-  const lvldetails = document.createElement("div");
-  lvldetails.className = "level";
-  const maindiv = document.getElementById("main");
-  maindiv.appendChild(lvldetails);
+  if (document.getElementById("leveldetails") == null) {
+    const lvldetails = document.createElement("div");
+    lvldetails.className = "level";
+    lvldetails.id = "leveldetails";
+    const maindiv = document.getElementById("main");
+    maindiv.appendChild(lvldetails);
+  }
 }
 
 printlist()
