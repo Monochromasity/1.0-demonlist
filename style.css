@@ -58,6 +58,6 @@ body {
 .level img {
   float: left;
   width: 320px;
-  height: 180px;
+  /* height: 180px; */
   padding: 20px;
 }
