@@ -88,8 +88,8 @@ async function printlist() {
 function leveldetails(lvl) {
   if (document.getElementById("leveldetails") == null) {
     const lvldetails = document.createElement("div");
-    lvldetails.className = "level";
     lvldetails.id = "leveldetails";
+    lvldetails.className = "level";
     const maindiv = document.getElementById("main");
     maindiv.appendChild(lvldetails);
   }
