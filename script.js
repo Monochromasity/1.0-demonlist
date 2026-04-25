@@ -16,6 +16,10 @@ async function printlist() {
     // Level div
     const level = document.createElement("div");
     level.className = "level";
+    level.onclick = function() {
+      console.log(this);
+      // leveldetails(this);
+    }
     // Level placement
     const placement = document.createElement("b");
     const placementtxt = document.createTextNode("#".concat(i+1));
