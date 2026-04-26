@@ -32,7 +32,6 @@ body {
   width: 960px;
   transition: transform 0.2s;
   cursor: pointer;
-  right: 100px;
 }
 
 .level:hover {
