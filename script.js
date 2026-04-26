@@ -90,7 +90,6 @@ function leveldetails(lvl) {
     // Create details box
     const lvldetails = document.createElement("div");
     lvldetails.id = "leveldetails";
-    lvldetails.className = "level";
     // Level name
     const name = document.createElement("p");
     const levelname = lvl.lastElementChild.firstElementChild.firstChild.nodeValue
