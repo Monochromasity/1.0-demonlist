@@ -90,6 +90,13 @@ function leveldetails(lvl) {
     const lvldetails = document.createElement("div");
     lvldetails.id = "leveldetails";
     lvldetails.className = "level";
+    // Level name
+    const name = document.createElement("p");
+    const levelname = lvl.lastElementChild.firstElementChild.firstChild.nodeValue
+    const nametxt = document.createTextNode(levelname);
+    name.appendChild(nametxt);
+    name.className = "name";
+    lvldetails.appendChild(name);
     const maindiv = document.getElementById("main");
     maindiv.appendChild(lvldetails);
   } else {
