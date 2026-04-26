@@ -23,6 +23,10 @@ body {
   align-items: center;
 }
 
+#list {
+  overflow: auto;
+}
+
 .level {
   display: flex;
   align-items: center;
