@@ -44,7 +44,7 @@ body {
 
 #leveldetails {
   position: fixed;
-  height: 720px;
+  height: 960px;
   display: flex;
   align-items: center;
   border: 2px solid #363636;
@@ -52,6 +52,7 @@ body {
   margin: 20px auto;
   width: 640px;
   right: 477px;
+  top: 50%;
 }
 
 .placement {
