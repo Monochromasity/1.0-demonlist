@@ -24,7 +24,9 @@ body {
 }
 
 #list {
+  overflow-x: visible;
   overflow-y: auto;
+  height: 1060px;
 }
 
 .level {
