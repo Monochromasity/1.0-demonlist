@@ -87,6 +87,7 @@ async function printlist() {
 
 function leveldetails(lvl) {
   if (document.getElementById("leveldetails") == null) {
+    // Create details box
     const lvldetails = document.createElement("div");
     lvldetails.id = "leveldetails";
     lvldetails.className = "level";
@@ -97,6 +98,9 @@ function leveldetails(lvl) {
     name.appendChild(nametxt);
     name.className = "name";
     lvldetails.appendChild(name);
+    // Push list left
+    document.getElementById("list").style.right = "477px";
+    // Append to main
     const maindiv = document.getElementById("main");
     maindiv.appendChild(lvldetails);
   } else {
