@@ -44,14 +44,14 @@ body {
 
 #leveldetails {
   position: fixed;
-  height: 75%;
+  height: 65%;
   display: flex;
   border: 2px solid #363636;
   border-radius: 10px;
   margin: 20px auto;
   width: 640px;
   right: 477px;
-  top: 12.5%;
+  top: 17.5%;
 }
 
 #leveldetails * {
