@@ -23,12 +23,6 @@ body {
   justify-content: center;
 }
 
-#list {
-  overflow-x: visible;
-  overflow-y: auto;
-  height: 1060px;
-}
-
 .level {
   display: flex;
   align-items: center;
