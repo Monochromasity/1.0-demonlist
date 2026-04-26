@@ -38,6 +38,11 @@ body {
   transform: scale(1.02);
 }
 
+#leveldetails {
+  position: fixed;
+  height: 720px;
+}
+
 .placement {
   font-size: 30px;
   padding-left: 20px;
