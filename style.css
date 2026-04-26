@@ -52,6 +52,9 @@ body {
   width: 640px;
   right: 477px;
   top: 50%;
+}
+
+#leveldetails * {
   text-align: center;
 }
 
