@@ -105,6 +105,8 @@ function leveldetails(lvl) {
     maindiv.appendChild(lvldetails);
   } else {
     document.getElementById("leveldetails").remove();
+    // Push list to normal
+    document.getElementById("list").style.right = "0px";
   }
 }
 
