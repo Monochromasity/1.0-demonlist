@@ -21,6 +21,7 @@ body {
 #main {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .level {
@@ -32,7 +33,6 @@ body {
   width: 960px;
   transition: transform 0.2s;
   cursor: pointer;
-  position: relative;
 }
 
 .level:hover {
